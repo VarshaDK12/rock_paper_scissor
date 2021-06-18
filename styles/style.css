@@ -113,9 +113,9 @@ header p{
 }
 
 .result-message{
-    padding: 0.5rem 1.5rem;
+    
     background-color: var(--text-color);
-    border: 4px solid #a38db6;
+    
     color: var(--white-color);
     width: 60%;
     height: 40%;

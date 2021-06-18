@@ -24,7 +24,7 @@
             </div>
             <div>
                 <p>
-                    <strong>Computer:</strong>  <span id="computer_score">0</span>
+                    <strong>Computer:</strong><span id="computer_score">0</span>
                 </p>
                 <p>
                 <strong>  User: </strong> <span id="user_score">0</span>
@@ -34,14 +34,17 @@
 
 
         </header>
-        <section class="hands">
-            <button> <i class="far fa-hand-rock"></i></button>
-            <button><i class="far fa-hand-paper"></i></button>
-            <button><i class="far fa-hand-scissors"></i></button>
+        <section class="hands hidden">
+            <button>
+                 <i class="far fa-hand-rock" onclick = "check('rock')"></i>
+                
+            </button>
+            <button><i class="far fa-hand-paper" onclick = "check('paper')"></i></button>
+            <button><i class="far fa-hand-scissors" onclick = "check('scissor')"></i></button>
         </section>
         <section class="result">
             <div class="game-start" id="game-start">
-              <button id="game-start">Start Game</button>
+              <button id="btn-game-start">Start Game</button>
             </div>
             <div class="game-result hidden" id="game-result">
                 <p id="computer_choice"></p>
